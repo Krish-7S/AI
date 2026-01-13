@@ -348,6 +348,6 @@ async def process_and_respond(transcript: str, websocket: WebSocket, call_uuid: 
 if __name__ == "__main__":
     import uvicorn
     print("\n" + "="*50, flush=True)
-    print("  SANDEZA VOICE AI v2.DEBUG.03 - [REL-01] ", flush=True)
+    print("  SANDEZA VOICE AI DEBUG ", flush=True)
     print("="*50 + "\n", flush=True)
     uvicorn.run("app.main:app", host="0.0.0.0", port=8000, reload=True)
